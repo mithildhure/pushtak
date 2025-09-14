@@ -1,0 +1,530 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Home Page</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+
+        <!--Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+        <style>
+            main{
+                width: 100%;
+            }
+
+            a:hover{
+            background-color: #fefae0;
+            }
+
+            h2:hover{
+                background-color: #432818 !important;
+                color: #dda15e !important;
+                cursor: pointer;
+            }
+
+            .btn:hover{
+                background-color: #dda15e !important; 
+                color:#432818;
+            }
+
+            .card:hover{
+                background-color: #432818 !important;
+                color: #dda15e;
+            }
+
+            .nav-item.dropdown:hover .dropdown-menu {
+                display: block;
+                margin-top: 0; 
+            }
+
+            .dropdown-menu a:hover {
+            background-color: #bc6c25;
+            color: #fff !important;
+            }
+
+        </style>
+
+    </head>
+
+    <body style="background-color:#fefae0;">
+        <header>
+            <!-- place navbar here -->
+             <nav
+                class="nav justify-content-center " style="background-color: #432818; padding: 5px 15px;"
+             >
+             <div class="logo me-auto" style="margin-left: 30px;">
+                <img src="images/Logo/Logo1.jpg" class="img-fluid rounded-circle m-1" alt=""
+                height="60px"
+                width="60px"
+                    >
+             </div>
+
+             <div class="d-flex justify-content-center flex grow-1">
+                <a class="nav-link" id="a1" href="index.html" aria-current="page" style="color: #dda15e; font-family: Poppins, sans-serif; font-weight: 600; font-size: large; padding: 15px; " 
+                    >Home </a
+                >
+
+                <div class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="categories.html" id="categoriesDropdown" role="button"
+         style="color: #dda15e; font-family: Poppins, sans-serif; font-weight:600; font-size: large; padding: 15px;">
+        Categories
+      </a>
+      <ul class="dropdown-menu" aria-labelledby="categoriesDropdown" style="background-color:#432818;">
+        <li><a class="dropdown-item" href="Alltime.html" style="color:#dda15e; font-family: Poppins, sans-serif; font-weight:600;">All Time Classics</a></li>
+        <li><a class="dropdown-item" href="marathi.html" style="color:#dda15e; font-family: Poppins, sans-serif; font-weight:600;">Marathi</a></li>
+        <li><a class="dropdown-item" href="tamil.html" style="color:#dda15e; font-family: Poppins, sans-serif; font-weight:600;">Tamil</a></li>
+        <li><a class="dropdown-item" href="gujrati.html" style="color:#dda15e; font-family: Poppins, sans-serif; font-weight:600;">Gujarati</a></li>
+        <li><a class="dropdown-item" href="bengali.html" style="color:#dda15e; font-family: Poppins, sans-serif; font-weight:600;">Bengali</a></li>
+        <li><a class="dropdown-item" href="hindi.html" style="color:#dda15e; font-family: Poppins, sans-serif; font-weight:600;">Hindi</a></li>
+      </ul>
+    </div>
+
+                <a class="nav-link" id="a1" href="social.html" style="color: #dda15e; font-family: Poppins, sans-serif; font-weight: 600; font-size: large; padding: 15px;" > Social</a>
+                <a class="nav-link" id="a1" href="aboutus.html" style="color: #dda15e; font-family: Poppins, sans-serif; font-weight: 600; font-size: large; padding: 15px;" > About Us</a>
+             </div>
+
+             </nav>
+             
+        </header>
+        <main >
+
+            <div
+                class="container my-2 " style="text-align: right;"
+            >
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M240-400h320v-80H240v80Zm0-120h480v-80H240v80Zm0-120h480v-80H240v80ZM80-80v-720q0-33 23.5-56.5T160-880h640q33 0 56.5 23.5T880-800v480q0 33-23.5 56.5T800-240H240L80-80Zm126-240h594v-480H160v525l46-45Zm-46 0v-480 480Z"/></svg>
+            </div>
+            
+            <!--Carousel ==========================-->
+            <div
+                class="container my-2 p-2"
+            >
+            <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li
+                        data-bs-target="#carouselId"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-current="true"
+                        aria-label="First slide"
+                    ></li>
+                    <li
+                        data-bs-target="#carouselId"
+                        data-bs-slide-to="1"
+                        aria-label="Second slide"
+                    ></li>
+                    <li
+                        data-bs-target="#carouselId"
+                        data-bs-slide-to="2"
+                        aria-label="Third slide"
+                    ></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img
+                            src="images/Carousel Images/pushtak_offer1.jpg"
+                            class="w-100 d-block"
+                            style="height: 520px;"
+                            alt="First slide"
+                        />
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            src="images/Carousel Images/carouseimg2.jpg"
+                            class="w-100 d-block"
+                            style="height: 520px;"
+                            alt="Second slide"
+                        />
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            src="images/Carousel Images/Delivery1.jpg"
+                            class="w-100 d-block"
+                            style="height: 520px;"
+                            alt="Third slide"
+                        />
+                    </div>
+                </div>
+                <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselId"
+                    data-bs-slide="prev"
+                >
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselId"
+                    data-bs-slide="next"
+                >
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+               
+            </div>
+
+
+
+            <!--Bengali ===========================-->                
+            <h2 class="my-1 py-2 px-3" style="color: #432818; margin-left: 20px; display: inline-block;">
+                
+                Feautred Bengali Fantasy
+            </h2>
+
+            <div
+                class="row row-cols-1 row-cols-md-5 g-4 my-1"
+            >
+                <div class="col" style="text-align: center;">
+                    <div class="card" style="background-color: #e8bd8b">
+                        <img class="card-img-top" src="images/bengali/bengaliFantasy/Adbhuture1.jpg" alt="Title" style="height: 338px; width: 100%; object-fit: cover;"/>
+                        <div class="card-body">
+                            <h3 class="card-title">Adhbutre</h3>
+                            <h5>Shirshendu Mukhopadhyay</h5>
+                            <a
+                                name=""
+                                id=""
+                                class="btn"
+                                href="index.html"
+                                role="button"
+                                style="background-color: white;"
+                                >Buy now</a
+                            >
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col" style="text-align: center;">
+                    <div class="card" style="background-color: #e8bd8b;">
+                        <img class="card-img-top" src="images/bengali/bengaliFantasy/Deshe_Bideshe1.jpg" alt="Title" style="height: 338px; width: 100%; ;" />
+                        <div class="card-body">
+                            <h3 class="card-title">Deshe Bideshe</h3>
+                            <h5>Syed Mujtaba Ali</h5>
+                            <br>
+                            <a
+                                name=""
+                                id=""
+                                class="btn"
+                                href="index.html"
+                                role="button"
+                                style="background-color: white;"
+                                >Buy now</a
+                            >
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col" style="text-align: center;">
+                    <div class="card" style="background-color: #e8bd8b;">
+                        <img class="card-img-top" src="images/bengali/bengaliFantasy/Sultanas Dream.jpeg" alt="Title" />
+                        <div class="card-body">
+                            <h3 class="card-title">Sultanas Dream</h3>
+                            <h5>Rokeya Sakhawat Hussain</h5>
+                            <a
+                                name=""
+                                id=""
+                                class="btn"
+                                href="index.html"
+                                role="button"
+                                style="background-color: white;"
+                                >Buy now</a
+                            >
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col" style="text-align: center;">
+                    <div class="card" style="background-color: #e8bd8b;">
+                        <img class="card-img-top" src="images/bengali/bengaliFantasy/Ami_Topu1.jpg" alt="Title" style="height: 338px;" />
+                        <div class="card-body">
+                            <h3 class="card-title">Ami Topu</h3>
+                            <h5>Muhammad Zafar Iqbal</h5>
+                            <a
+                                name=""
+                                id=""
+                                class="btn"
+                                href="index.html"
+                                role="button"
+                                style="background-color: white;"
+                                >Buy now</a
+                            >
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col" style="text-align: center;">
+                    <div class="card" style="background-color: #e8bd8b;">
+                        <img class="card-img-top" src="images/bengali/bengaliFantasy/Agnibeena1.jpg" alt="Title" style="height: 338px;" />
+                        <div class="card-body">
+                            <h3 class="card-title">Agnibeena</h3>
+                            <h5>Kazi Nazrul Islam</h5>
+                            <br>
+                            <a
+                                name=""
+                                id=""
+                                class="btn"
+                                href="index.html"
+                                role="button"
+                                style="background-color: white;"
+                                >Buy now</a
+                            >
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <!--Marathi Romance =========-->
+            
+             <h2 class="my-1 py-2 px-3" style="color: #432818; margin-left: 20px; display: inline-block;">
+                
+                Feautred Marathi Romance
+            </h2>
+
+            <div
+                class="row row-cols-1 row-cols-md-5 g-4 my-1"
+            >
+                <div class="col" style="text-align: center;">
+                    <div class="card" style="background-color: #e8bd8b">
+                        <img class="card-img-top" src="images/Marathi/marathiRomance/duniyadari1.jpg" alt="Title" style="height: 338px; width: 100%; object-fit: cover;"/>
+                        <div class="card-body">
+                            <h3 class="card-title">Duniyadari</h3>
+                            <h5>Subhas Shirvalkar</h5>
+                            <a
+                                name=""
+                                id=""
+                                class="btn"
+                                href="index.html"
+                                role="button"
+                                style="background-color: white;"
+                                >Buy now</a
+                            >
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col" style="text-align: center;">
+                    <div class="card" style="background-color: #e8bd8b;">
+                        <img class="card-img-top" src="images/Marathi/marathiRomance/MatsyaGandha1.jpg" alt="Title" style="height: 338px; width: 100%; ;" />
+                        <div class="card-body">
+                            <h3 class="card-title">MatsyaGandha</h3>
+                            <h5>Vasant kanetkar</h5>
+                            <a
+                                name=""
+                                id=""
+                                class="btn"
+                                href="index.html"
+                                role="button"
+                                style="background-color: white;"
+                                >Buy now</a
+                            >
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col" style="text-align: center;">
+                    <div class="card" style="background-color: #e8bd8b;">
+                        <img class="card-img-top" src="images/Marathi/marathiRomance/Mritunjay1.jpg" alt="Title" style="height: 338px;"/>
+                        <div class="card-body">
+                            <h3 class="card-title">Mrutyunjay</h3>
+                            <h5>Shivaji Sawant</h5>
+                            <a
+                                name=""
+                                id=""
+                                class="btn"
+                                href="index.html"
+                                role="button"
+                                style="background-color: white;"
+                                >Buy now</a
+                            >
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col" style="text-align: center;">
+                    <div class="card" style="background-color: #e8bd8b;">
+                        <img class="card-img-top" src="images/Marathi/marathiRomance/shaala1.jpg" alt="Title" style="height: 338px;" />
+                        <div class="card-body">
+                            <h3 class="card-title">Shala</h3>
+                            <h5>Milind Bokli</h5>
+                            <a
+                                name=""
+                                id=""
+                                class="btn"
+                                href="index.html"
+                                role="button"
+                                style="background-color: white;"
+                                >Buy now</a
+                            >
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col" style="text-align: center;">
+                    <div class="card" style="background-color: #e8bd8b;">
+                        <img class="card-img-top" src="images/Marathi/marathiRomance/Yayati1.jpg" alt="Title" style="height: 338px;" />
+                        <div class="card-body">
+                            <h3 class="card-title">Yayati</h3>
+                            <h5>V.S. Khandekar</h5>
+                            <a
+                                name=""
+                                id=""
+                                class="btn"
+                                href="index.html"
+                                role="button"
+                                style="background-color: white;"
+                                >Buy now</a
+                            >
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <!--Tamil========-->
+
+             <h2 class="my-1 py-2 px-3" style="color: #432818; margin-left: 20px; display: inline-block;">
+                
+                Feautred Tamil Thriller
+            </h2>
+
+            <div
+                class="row row-cols-1 row-cols-md-5 g-4 my-1"
+            >
+                <div class="col" style="text-align: center;">
+                    <div class="card" style="background-color: #e8bd8b">
+                        <img class="card-img-top" src="images/Tamil/Tamil Thriller/En_Iniya1.jpg" alt="Title" style="height: 338px; width: 100%; object-fit: cover;"/>
+                        <div class="card-body">
+                            <h3 class="card-title">En Iniya Iyanthira</h3>
+                            <h5>Sujatha</h5>
+                            <a
+                                name=""
+                                id=""
+                                class="btn"
+                                href="index.html"
+                                role="button"
+                                style="background-color: white;"
+                                >Buy now</a
+                            >
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col" style="text-align: center;">
+                    <div class="card" style="background-color: #e8bd8b;">
+                        <img class="card-img-top" src="images/Tamil/Tamil Thriller/Kolaiyuthir_Kaalam1.jpg" alt="Title" style="height: 338px; width: 100%; ;" />
+                        <div class="card-body">
+                            <h3 class="card-title">Kolaiyuthir Kaalam</h3>
+                            <h5>Sujatha</h5>
+                            <a
+                                name=""
+                                id=""
+                                class="btn"
+                                href="index.html"
+                                role="button"
+                                style="background-color: white;"
+                                >Buy now</a
+                            >
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col" style="text-align: center;">
+                    <div class="card" style="background-color: #e8bd8b;">
+                        <img class="card-img-top" src="images/Tamil/Tamil Thriller/Mugam_Vezhum_Vaasam1.jpg" alt="Title" style="height: 340px;" />
+                        <div class="card-body">
+                            <h3 class="card-title">MugamVezhum Vaasam</h3>
+                            <h5>Rajesh Kumar</h5>
+                            <a
+                                name=""
+                                id=""
+                                class="btn"
+                                href="index.html"
+                                role="button"
+                                style="background-color: white;"
+                                >Buy now</a
+                            >
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col" style="text-align: center;">
+                    <div class="card" style="background-color: #e8bd8b;">
+                        <img class="card-img-top" src="images/Tamil/Tamil Thriller/Thuppariyum_Saambhu1.jpg" alt="Title" style="height: 338px;" />
+                        <div class="card-body">
+                            <h3 class="card-title">Thuppariyum Saambhu</h3>
+                            <h5>Devan</h5>
+                            <a
+                                name=""
+                                id=""
+                                class="btn"
+                                href="index.html"
+                                role="button"
+                                style="background-color: white;"
+                                >Buy now</a
+                            >
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col" style="text-align: center;">
+                    <div class="card" style="background-color: #e8bd8b;">
+                        <img class="card-img-top" src="images/Tamil/Tamil Thriller/Unmaigal.jpg" alt="Title" style="height: 338px;" />
+                        <div class="card-body">
+                            <h3 class="card-title">Unmaigal</h3>
+                            <h5>Pattukkottai Prabhakar</h5>
+                            <a
+                                name=""
+                                id=""
+                                class="btn"
+                                href="index.html"
+                                role="button"
+                                style="background-color: white;"
+                                >Buy now</a
+                            >
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <!-- End -->
+        </main>
+        <footer class="text-light text-center p-5" style="background-color: #432818; color: #fefae0;" >
+            <!-- place footer here -->
+            &copy; PushTalk All right Reserved 2025
+        </footer>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
